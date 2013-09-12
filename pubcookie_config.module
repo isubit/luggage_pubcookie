@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the pubcookie_config feature.
+ */
+
+include_once 'pubcookie_config.features.inc';
