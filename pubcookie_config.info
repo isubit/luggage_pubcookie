@@ -4,6 +4,7 @@ core = 7.x
 package = Features
 version = 7.x-1.0
 project = pubcookie_config
+github = https://raw.github.com/ISUITC/pubcookie_config/master/pubcookie_config.info
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = pubcookie
