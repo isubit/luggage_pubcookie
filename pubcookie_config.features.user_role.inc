@@ -13,7 +13,7 @@ function pubcookie_config_user_default_roles() {
   // Exported role: pubcookie user admin.
   $roles['pubcookie user admin'] = array(
     'name' => 'pubcookie user admin',
-    'weight' => 7,
+    'weight' => 8,
   );
 
   return $roles;
