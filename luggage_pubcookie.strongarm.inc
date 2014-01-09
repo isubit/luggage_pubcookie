@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * pubcookie_config.strongarm.inc
+ * luggage_pubcookie.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function pubcookie_config_strongarm() {
+function luggage_pubcookie_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Code for the luggage_pubcookie feature.
+ */
+
+include_once 'luggage_pubcookie.features.inc';
+
+/**
+ * Implements hook_update_projects_alter().
+ */
+function luggage_pubcookie_update_projects_alter(&$projects) {
+  // Hide a site-specific module from the list.
+  unset($projects['luggage_pubcookie']);
+}

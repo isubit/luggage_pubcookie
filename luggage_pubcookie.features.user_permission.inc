@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * pubcookie_config.features.user_permission.inc
+ * luggage_pubcookie.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function pubcookie_config_user_default_permissions() {
+function luggage_pubcookie_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'administer pubcookie site access'.

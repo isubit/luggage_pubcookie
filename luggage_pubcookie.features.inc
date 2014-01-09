@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * pubcookie_config.features.inc
+ * luggage_pubcookie.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function pubcookie_config_ctools_plugin_api($module = NULL, $api = NULL) {
+function luggage_pubcookie_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
