@@ -28,7 +28,7 @@ function luggage_pubcookie_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pubcookie_login_dir';
-  $strongarm->value = 'login';
+  $strongarm->value = 'pubcookie';
   $export['pubcookie_login_dir'] = $strongarm;
 
   $strongarm = new stdClass();
