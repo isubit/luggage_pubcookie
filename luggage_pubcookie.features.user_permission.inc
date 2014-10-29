@@ -10,6 +10,15 @@
 function luggage_pubcookie_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: 'administer pubcookie future roles'.
+  $permissions['administer pubcookie future roles'] = array(
+    'name' => 'administer pubcookie future roles',
+    'roles' => array(
+      'pubcookie user admin' => 'pubcookie user admin',
+    ),
+    'module' => 'pubcookiesiteaccess',
+  );
+
   // Exported permission: 'administer pubcookie site access'.
   $permissions['administer pubcookie site access'] = array(
     'name' => 'administer pubcookie site access',
